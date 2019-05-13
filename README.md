@@ -24,9 +24,12 @@ students = [
 upper_case_full_names = []
 
 ```
-
-### Answer
-
+### 
+students.each{ |child_arr|
+    child_arr.each{ |child_child_value| 
+     puts child_child_value
+  }
+}
 ```rb
 
 [ 'AHMED ALTHAGAFI', 'NORAH ALSHEHRI', 'HANEEN ALGHAMDI' ]
@@ -80,7 +83,12 @@ first_order_for_each_user = []
 
 ```
 
-### Answer
+### 
+users.each do |key, value|
+  puts key
+  puts value
+end
+
 
 ```rb
 
